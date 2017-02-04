@@ -61,7 +61,7 @@ a GB of RAM to do one page.
 funcparserlib is a parser combinator library.
 
 - [Website](https://code.google.com/p/funcparserlib/)
-    
+
 <div class="block">
 <span class="badge badge-success">LL(*)</span>
 </div>
@@ -101,13 +101,50 @@ Python iteslf. Proposed in PEP 269.
 ##### ANTLR
 
 ANTLR is a Java parser generator framework that can emit Python
-parsers. 
+parsers.
 
 - [Website](http://www.antlr.org/)
 
 <div class="block">
 <span class="badge badge-success">LL(1+)</span>
 </div>
+
+##### Grako
+
+https://pypi.python.org/pypi/grako
+
+##### pyPEG
+
+https://fdik.org/pyPEG/
+
+##### Pijnu
+
+https://github.com/peter17/pijnu
+
+##### PlyPlus
+
+https://github.com/erezsh/plyplus
+
+##### EasyPly
+
+https://github.com/MHordecki/easyply: middleware above `ply`
+
+##### RPly
+
+https://github.com/alex/rply: R Python port of `ply`
+
+##### PyBison
+
+https://github.com/smvv/pybison: bindings to `bison` and `lex`
+
+##### Others
+
+https://github.com/osandov/pylex: educational scanner generator
+https://github.com/bl0b/jupyLR: SLR
+
+https://github.com/zbraniecki/pyast: similar to `astutils`
+
+
 
 Syntax Definition
 -----------------
@@ -310,10 +347,10 @@ and used in larger Python programs.
 
 ##### Parakeet
 
-Parakeet is a runtime compiler for numerical Python. 
-It creates specialized versions of a function for distinct input types and 
-translates array expressions and NumPy library calls into data parallel operators. 
-The current backend uses LLVM but GPU support is in the works. 
+Parakeet is a runtime compiler for numerical Python.
+It creates specialized versions of a function for distinct input types and
+translates array expressions and NumPy library calls into data parallel operators.
+The current backend uses LLVM but GPU support is in the works.
 
 - [Website](https://github.com/iskandr/parakeet)
 
@@ -323,7 +360,7 @@ The current backend uses LLVM but GPU support is in the works.
 
 ##### LLPython
 
-The primary goal of the llpython package is to provide a Python dialect/subset that maps directly to LLVM code. 
+The primary goal of the llpython package is to provide a Python dialect/subset that maps directly to LLVM code.
 
 - [Website](https://github.com/llvmpy/llvmpy/tree/master/llpython)
 - [Docs](http://www.llvmpy.org/llvmpy-doc/0.10.1/doc/llpython/index.html)
@@ -334,9 +371,9 @@ The primary goal of the llpython package is to provide a Python dialect/subset t
 
 ##### Nuitka
 
-Right now Nuitka is a good replacement for the Python interpreter and compiles every construct that 
-CPython 2.6 and 2.7 offer. It translates the Python into a C++ program that then uses "libpython" to 
-execute in the same way as CPython does, in a very compatible way. 
+Right now Nuitka is a good replacement for the Python interpreter and compiles every construct that
+CPython 2.6 and 2.7 offer. It translates the Python into a C++ program that then uses "libpython" to
+execute in the same way as CPython does, in a very compatible way.
 
 - [Website](http://nuitka.net/pages/overview.html)
 - [Docs](http://nuitka.net/doc/user-manual.html)
@@ -427,7 +464,7 @@ virtual machine.
 
 Falcon is an extension module for Python which implements a
 optimized, register machine based interpreter, inside of your
-interpreter. 
+interpreter.
 
 - [Website](https://github.com/rjpower/falcon)
 
@@ -658,10 +695,10 @@ Bob is a suite of implementations of the Scheme language in Python.
 
 - [Website](https://code.google.com/p/bobscheme/)
 
-##### Mini-C 
+##### Mini-C
 
 Mini-C is a compiler for a subset of the C programming language
-written in Python. 
+written in Python.
 
 - [Website](http://people.cs.uchicago.edu/~varmaa/mini_c/)
 
