@@ -111,36 +111,112 @@ parsers.
 
 ##### Grako
 
-https://pypi.python.org/pypi/grako
+Grako (for grammar compiler) is a tool that takes grammars in a variation of EBNF as input, and outputs memoizing (Packrat) PEG parsers in Python.
+
+- [PyPI](https://pypi.python.org/pypi/grako)
+- [Bitbucket](https://bitbucket.org/neogeny/grako)
+
+<div class="block">
+<span class="badge badge-success">PEG</span>
+</div>
 
 ##### pyPEG
 
 https://fdik.org/pyPEG/
+https://github.com/Osso/pypeg
+
+<div class="block">
+<span class="badge badge-success">PEG</span>
+</div>
 
 ##### Pijnu
 
-https://github.com/peter17/pijnu
+- [GitHub](https://github.com/peter17/pijnu)
+
+<div class="block">
+<span class="badge badge-success">PEG</span>
+</div>
+
+##### Arpeggio
+
+- [GitHub](https://github.com/igordejanovic/Arpeggio)
+
+<div class="block">
+<span class="badge badge-success">PEG</span>
+</div>
 
 ##### PlyPlus
 
-https://github.com/erezsh/plyplus
+Plyplus is a general-purpose parser built on top of PLY.
+
+- [GitHub](https://github.com/erezsh/plyplus)
+
+<div class="block">
+<span class="badge badge-success">LALR(1)</span>
+</div>
 
 ##### EasyPly
 
 https://github.com/MHordecki/easyply: middleware above `ply`
 
+<div class="block">
+<span class="badge badge-success">LALR(1)</span>
+</div>
+
 ##### RPly
 
 https://github.com/alex/rply: R Python port of `ply`
+
+<div class="block">
+<span class="badge badge-success">LALR(1)</span>
+</div>
 
 ##### PyBison
 
 https://github.com/smvv/pybison: bindings to `bison` and `lex`
 
+<div class="block">
+<span class="badge badge-success">LALR(1)</span>
+</div>
+
+##### picoparse
+
+A parser combinator library (recursive descent).
+
+- [GitHub](https://github.com/brehaut/picoparse/)
+
+<div class="block">
+<span class="badge badge-success">LL</span>
+</div>
+
+##### Aperiot
+
+https://sites.google.com/site/aperiotparsergenerator/
+
 ##### Others
 
 https://github.com/osandov/pylex: educational scanner generator
-https://github.com/bl0b/jupyLR: SLR
+
+##### modgrammar
+
+- [PyPI](https://pypi.python.org/pypi/modgrammar)
+- [Bitbucket](https://bitbucket.org/modgrammar/modgrammar)
+
+<div class="block">
+<span class="badge badge-success">PEG</span>
+</div>
+
+##### jupyLR
+
+Lexical analysis is performed with regular expressions, parsing with the GLR algorithm based on an SLR automaton.
+
+- [GitHub](https://github.com/bl0b/jupyLR)
+
+<div class="block">
+<span class="badge badge-success">GLR</span>
+</div>
+
+##### pyast
 
 https://github.com/zbraniecki/pyast: similar to `astutils`
 
